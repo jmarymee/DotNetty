@@ -21,6 +21,8 @@
         {
             throw new NotImplementedException();
         }
+
+        public static TlsHandlerDCM Server(X509Certificate certificate) => new TlsHandlerDCM();
     }
 }
 
